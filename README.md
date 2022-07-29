@@ -16,6 +16,6 @@ Não deve fazer uso de NENHUMA biblioteca auxiliar de desenhos.
 - midOfMatrix é a variável que determina o meio da pirâmide.
 - controlLeft e controlRight vão formar os espaços laterais da pirâmide.
 - midOfMatrix  vai ser 10.5, o índice do meio.
-- Vão ser feitas dois for pra percorrer as linhas e as colunas.
+- Vão ser feitos dois for pra percorrer as linhas e as colunas.
 - Como inicialmente columnIndex > controlLeft && columnIndex < controlRight, então vai retornar inputLine = inputLine + symbol.
 - Com o passar do tempo, essa condição já não vai ser mais verdadeira, então vai retonar  inputLine = inputLine + ' ' .
