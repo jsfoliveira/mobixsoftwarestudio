@@ -5,3 +5,10 @@ let inputLine = '';
 let midOfMatrix = (n + 1) / 2; 
 let controlLeft = midOfMatrix-(n/2);
 let controlRight = midOfMatrix+(n/2);
+
+for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
+  for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
+   
+  }
+
+};
