@@ -1,3 +1,4 @@
+// Código completo do triângulo preenchido e de cabeça para baixo
 let n = 20;
 let symbol = '#';
 let inputLine = '';
@@ -20,7 +21,7 @@ for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
   controlLeft += 1
 };
 
-
+// Código incompleto do triângulo vazio e de cabeça pra cima
 let num = 20;
 let middle = (num + 1) / 2;
 let controlLeft2 = middle;
