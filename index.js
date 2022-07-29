@@ -14,5 +14,8 @@ for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
       inputLine = inputLine + ' ' ;
     }
   }
-
+  console.log(inputLine);
+  inputLine = '';
+  controlRight -= 1;
+  controlLeft += 1
 };
