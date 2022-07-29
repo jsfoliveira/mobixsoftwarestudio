@@ -8,7 +8,11 @@ let controlRight = midOfMatrix+(n/2);
 
 for (let lineIndex = 0; lineIndex <= midOfMatrix; lineIndex += 1) {
   for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
-   
+    if (columnIndex > controlLeft && columnIndex < controlRight) {
+      inputLine = inputLine + symbol;
+    } else {
+      inputLine = inputLine + ' ' ;
+    }
   }
 
 };
